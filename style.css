@@ -10,8 +10,15 @@ body {
     color: #e0e0d9;
 }
 
+.apresentacao {
+    margin: 10%;
+    display: flex; /*Define um bloco/container para posicionar todos os elementos filho*/
+    align-items: center;  /* Alinha todos elementos no eixo horizontal */
+    justify-content: space-between; /*Espaçamento entre os elementos*/
+}
+
 h1 {
-    font-weight: bold;
+    font-weight: bold;  
 }
 
 .titulo-destaque {
