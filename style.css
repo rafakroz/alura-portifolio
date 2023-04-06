@@ -7,6 +7,10 @@ h1 {
     font-weight: bold;
 }
 
-span {
+.titulo-destaque {
     color: #22d4fd;
+}
+
+.paragrafo-destaque {
+    color: rgb(241, 130, 56);
 }
