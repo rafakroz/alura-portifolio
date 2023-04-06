@@ -1,4 +1,12 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #265059;
+    color: #e0e0d9;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+span {
+    color: #22d4fd;
 }
