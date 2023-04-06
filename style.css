@@ -28,3 +28,15 @@ h1 {
 .paragrafo-destaque {
     color: rgb(241, 130, 56);
 }
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+}
