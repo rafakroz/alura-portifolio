@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -35,8 +37,10 @@ h1 {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
+    font-family: 'Open Sans', sans-serif;;
 }
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
