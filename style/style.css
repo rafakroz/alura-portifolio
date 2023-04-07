@@ -12,8 +12,25 @@ body {
     color: #e0e0d9;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 50px;  /*Aula 80px*/
+}
+
+.cabecalho__menu__link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #22d4fd;
+    text-decoration: none;
+}
+
 .apresentacao {
-    padding: 8% 15%;  /*Valores aula: 10% 15%*/
+    padding: 5% 15%;  /*Valores aula: 10% 15%*/
     display: flex; /*Define um bloco/container para posicionar todos os elementos filho*/
     align-items: center;  /* Alinha todos elementos no eixo horizontal */
     justify-content: space-between; /*Espaçamento entre os elementos*/
@@ -21,10 +38,6 @@ body {
 
 h1 {
     font-weight: bold;  
-}
-
-.titulo-destaque {
-    color: #22d4fd;
 }
 
 .paragrafo-destaque {
@@ -41,6 +54,10 @@ h1 {
 .apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.titulo-destaque {
+    color: #22d4fd;
 }
 
 .apresentacao__conteudo__texto {
