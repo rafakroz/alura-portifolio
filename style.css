@@ -13,7 +13,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
+    margin: 10% 18%;  /*Valores aula: 10% 15%*/
     display: flex; /*Define um bloco/container para posicionar todos os elementos filho*/
     align-items: center;  /* Alinha todos elementos no eixo horizontal */
     justify-content: space-between; /*Espaçamento entre os elementos*/
@@ -33,6 +33,9 @@ h1 {
 
 .apresentacao__conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column; /* A direção dos elementos dentro da seção ficarão na vertical e não horizontal por default, quando o display: flex foi aplicado*/
+    gap: 40px; /* Espaçamento entre os elementos */
 }
 
 .apresentacao__conteudo__titulo {
