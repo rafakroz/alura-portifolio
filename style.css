@@ -6,14 +6,14 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #265059;
     color: #e0e0d9;
 }
 
 .apresentacao {
-    margin: 10% 15%;  /*Valores aula: 10% 15%*/
+    padding: 8% 15%;  /*Valores aula: 10% 15%*/
     display: flex; /*Define um bloco/container para posicionar todos os elementos filho*/
     align-items: center;  /* Alinha todos elementos no eixo horizontal */
     justify-content: space-between; /*Espaçamento entre os elementos*/
@@ -28,7 +28,7 @@ h1 {
 }
 
 .paragrafo-destaque {
-    color: rgb(241, 130, 56);
+    color: #f18238;
 }
 
 .apresentacao__conteudo {
@@ -84,4 +84,13 @@ h1 {
     background-color: #353535;
     font-size: 25px;
     color: #22d4fd;
+}
+
+.rodape {
+    color: #e0e0d9;
+    background-color: #22d4fd;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    padding: 24px;
+    text-align: center;
 }
