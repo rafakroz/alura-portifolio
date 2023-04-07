@@ -40,7 +40,7 @@ h1 {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .apresentacao__conteudo__texto {
@@ -50,18 +50,29 @@ h1 {
 
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .apresentacao__links__link {
-    background-color: #22d4fd;
-    width: 250px;  /*Valor aula 280px*/
+    /* background-color: #22d4fd; */
+    width: 360px;  /*Valor aula 280px*/
     text-align: center;
-    border-radius: 16px; /*Arredondar os cantos*/
+    border-radius: 8px; /*Arredondar os cantos*/
+    border: 2px solid #22d4fd;
     font-size: 24px;
     font-weight: 600;
-    padding: 18px 0;  /*Valor aula 21.5px*/
+    padding: 17px 0;  /*Valor aula 21.5px*/
     text-decoration: none; /*Remove o sublinhado dos links*/
-    color: black;
+    /* color: black; */
+    color: #e0e0d9;
     font-family: 'Source Sans Pro', sans-serif;
 }
