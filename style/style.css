@@ -29,6 +29,11 @@ body {
     text-decoration: none;
 }
 
+/*.cabecalho__menu__link:hover {
+    background-color: #353535;
+    color: #22d4fd;
+}*/
+
 .apresentacao {
     padding: 5% 15%;  /*Valores aula: 10% 15%*/
     display: flex; /*Define um bloco/container para posicionar todos os elementos filho*/
@@ -65,6 +70,11 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.apresentacao__conteudo__texto a{
+    text-decoration: none;
+    color: #22D4FD;
+}
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
@@ -99,7 +109,7 @@ h1 {
 
 .apresentacao__links__link:hover {
     background-color: #353535;
-    font-size: 25px;
+    font-size: 24.5px;
     color: #22d4fd;
 }
 
