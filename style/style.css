@@ -29,10 +29,9 @@ body {
     text-decoration: none;
 }
 
-/*.cabecalho__menu__link:hover {
-    background-color: #353535;
-    color: #22d4fd;
-}*/
+.cabecalho__menu__link:hover {
+    color: #1da2c0;
+}
 
 .apresentacao {
     padding: 5% 15%;  /*Valores aula: 10% 15%*/
@@ -73,6 +72,10 @@ h1 {
 .apresentacao__conteudo__texto a{
     text-decoration: none;
     color: #22D4FD;
+}
+
+.apresentacao__conteudo__texto a:hover {
+    color: #1da2c0;
 }
 
 .apresentacao__links {
