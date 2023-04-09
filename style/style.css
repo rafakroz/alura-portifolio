@@ -51,6 +51,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 h1 {
@@ -62,7 +63,7 @@ h1 {
 }
 
 .apresentacao__conteudo {
-    width: 39rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -105,11 +106,11 @@ h1 {
     font-size: 1.5rem;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    width: 22.5rem;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     border: 2px solid var(--cor-azul-texto);
@@ -121,10 +122,14 @@ h1 {
     font-family: var(--font-source-sans);
 }
 
-.apresentacao__links__link:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover-cinza);
     font-size: 1.5rem;
     color: var(--cor-azul-texto);
+}
+
+.apresentacao__imagem {
+    width: 50%;
 }
 
 .rodape {
@@ -134,4 +139,29 @@ h1 {
     font-weight: 600;
     padding: 1.5rem;
     text-align: center;
+}
+
+/* @media está definindo o tamanho maxímo da tela para manter os estilo definidos. Caso a tela seja menor, vai aplicar as novas definições. */
+
+/* É preciso informar qual classe / id desejamos aplicar novos estilos. */
+
+/* flex-direction: column-reverse inverteu a ordem dos elementos. */
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 4%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
 }
