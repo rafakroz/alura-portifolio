@@ -31,12 +31,12 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 50px;  /*Aula 80px*/
+    gap: 3.125rem;
 }
 
 .cabecalho__menu__link {
     font-family: var(--font-source-sans);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--cor-azul-texto);
     text-decoration: none;
@@ -47,10 +47,10 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;  /*Valores aula: 10% 15%*/
-    display: flex; /*Define um bloco/container para posicionar todos os elementos filho*/
-    align-items: center;  /* Alinha todos elementos no eixo horizontal */
-    justify-content: space-between; /*Espaçamento entre os elementos*/
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 h1 {
@@ -62,14 +62,14 @@ h1 {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 39rem;
     display: flex;
-    flex-direction: column; /* A direção dos elementos dentro da seção ficarão na vertical e não horizontal por default, quando o display: flex foi aplicado*/
-    gap: 40px; /* Espaçamento entre os elementos */
+    flex-direction: column;
+    gap: 40px;
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;  /* 36 px */
+    font-size: 2.25rem;
     font-family: var(--font-open-sans);
 }
 
@@ -78,7 +78,7 @@ h1 {
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-source-sans);
 }
 
@@ -96,36 +96,34 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .apresentacao__links__subtitulo {
     font-family: var(--font-source-sans);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link {
     display: flex;
     justify-content: center;
-    gap: 16px;
-    /* background-color: #22d4fd; */
-    width: 360px;  /*Valor aula 280px*/
+    gap: 1rem;
+    width: 22.5rem;
     text-align: center;
-    border-radius: 8px; /*Arredondar os cantos*/
+    border-radius: 8px;
     border: 2px solid var(--cor-azul-texto);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    padding: 17px 0;  /*Valor aula 21.5px*/
-    text-decoration: none; /*Remove o sublinhado dos links*/
-    /* color: black; */
+    padding: 1rem 0;
+    text-decoration: none;
     color: var(--cor-branco-texto);
     font-family: var(--font-source-sans);
 }
 
 .apresentacao__links__link:hover {
     background-color: var(--cor-hover-cinza);
-    font-size: 24.5px;
+    font-size: 1.5rem;
     color: var(--cor-azul-texto);
 }
 
@@ -134,6 +132,6 @@ h1 {
     background-color: var(--cor-azul-texto);
     font-family: var(--font-source-sans);
     font-weight: 600;
-    padding: 24px;
+    padding: 1.5rem;
     text-align: center;
 }
