@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@300;600&display=swap');
 
+:root {
+    /*CORES*/
+    --cor-bg: #265059;
+    --cor-branco-texto: #e0e0d9;
+    --cor-azul-texto: #22d4fd;
+    --cor-orange-texto: #f18238;
+    --cor-hover-azul: #1da2c0;
+    --cor-hover-cinza: #353535;
+    /*FONTES*/
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-source-sans: 'Source Sans Pro', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +21,8 @@
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #265059;
-    color: #e0e0d9;
+    background-color: var(--cor-bg);
+    color: var(--cor-branco-texto);
 }
 
 .cabecalho {
@@ -22,15 +35,15 @@ body {
 }
 
 .cabecalho__menu__link {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--font-source-sans);
     font-size: 24px;
     font-weight: bold;
-    color: #22d4fd;
+    color: var(--cor-azul-texto);
     text-decoration: none;
 }
 
 .cabecalho__menu__link:hover {
-    color: #1da2c0;
+    color: var(--cor-hover-azul);
 }
 
 .apresentacao {
@@ -45,7 +58,7 @@ h1 {
 }
 
 .paragrafo-destaque {
-    color: #f18238;
+    color: var(--cor-orange-texto);
 }
 
 .apresentacao__conteudo {
@@ -56,26 +69,26 @@ h1 {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
-    font-family: 'Open Sans', sans-serif;
+    font-size: 2.25rem;  /* 36 px */
+    font-family: var(--font-open-sans);
 }
 
 .titulo-destaque {
-    color: #22d4fd;
+    color: var(--cor-azul-texto);
 }
 
 .apresentacao__conteudo__texto {
     font-size: 24px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--font-source-sans);
 }
 
 .apresentacao__conteudo__texto a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-azul-texto);
 }
 
 .apresentacao__conteudo__texto a:hover {
-    color: #1da2c0;
+    color: var(--cor-hover-azul);
 }
 
 .apresentacao__links {
@@ -87,7 +100,7 @@ h1 {
 }
 
 .apresentacao__links__subtitulo {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: var(--font-source-sans);
     font-weight: 600;
     font-size: 24px;
 }
@@ -100,26 +113,26 @@ h1 {
     width: 360px;  /*Valor aula 280px*/
     text-align: center;
     border-radius: 8px; /*Arredondar os cantos*/
-    border: 2px solid #22d4fd;
+    border: 2px solid var(--cor-azul-texto);
     font-size: 24px;
     font-weight: 600;
     padding: 17px 0;  /*Valor aula 21.5px*/
     text-decoration: none; /*Remove o sublinhado dos links*/
     /* color: black; */
-    color: #e0e0d9;
-    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--cor-branco-texto);
+    font-family: var(--font-source-sans);
 }
 
 .apresentacao__links__link:hover {
-    background-color: #353535;
+    background-color: var(--cor-hover-cinza);
     font-size: 24.5px;
-    color: #22d4fd;
+    color: var(--cor-azul-texto);
 }
 
 .rodape {
-    color: #e0e0d9;
-    background-color: #22d4fd;
-    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--cor-branco-texto);
+    background-color: var(--cor-azul-texto);
+    font-family: var(--font-source-sans);
     font-weight: 600;
     padding: 24px;
     text-align: center;
